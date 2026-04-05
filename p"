@@ -1,0 +1,13 @@
+[1mdiff --git a/index.jsp b/index.jsp[m
+[1mindex 510f98b..d44ef1e 100644[m
+[1m--- a/index.jsp[m
+[1m+++ b/index.jsp[m
+[36m@@ -3,5 +3,6 @@[m
+ <h2>Hello !</h2>[m
+ <p>This is my NextWork web application working!</p>[m
+ <p>I am writing this line using nano instead of an IDE.</p>[m
+[32m+[m[32m<p>If you see this line in Github, that means your latest changes are getting pushed to your cloud repo :o</p>[m
+ </body>[m
+[31m-</html>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
