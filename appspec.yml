@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+
+files:
+  - source: target/nextwork-web-project.war
+    destination: /tmp
+
+hooks:
+  BeforeInstall:
+    - location: scripts/deploy.sh
+      timeout: 300
+      runas: root
